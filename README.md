@@ -36,7 +36,9 @@ The overdraft fee is classified as wasteful rather than essential because it's a
 
 ### Classification Logic
 
-Transactions are matched against category-specific keyword lists (e.g., `ESSENTIAL_KEYWORDS`, `WASTE_KEYWORDS`) in a `classify_transaction()` function. Any transaction that doesn't confidently match a keyword falls into a `needs_review` bucket rather than being defaulted into "discretionary" — this avoids silently misclassifying ambiguous spend and surfaces it for a human check via `get_review_flags()`.
+Transactions are matched against category-specific keyword lists (`WASTE_KEYWORDS`, `ESSENTIAL_SUB_KEYWORDS`, `GROCERY_KEYWORDS`, `ESSENTIAL_KEYWORDS`) in a `classify_transaction()` function, checked in order: income, wasteful, unclear cash (ATM withdrawals), essential subscriptions, essential, groceries. Any transaction that doesn't match a keyword in any list defaults to "discretionary."
+
+This function is designed for reuse: dropping in any future month's TD statement CSV will automatically re-run the same classification without needing new code, though any new merchant names not covered by the existing keyword lists would need to be added manually to stay accurate.
 
 
 ## Key Findings
