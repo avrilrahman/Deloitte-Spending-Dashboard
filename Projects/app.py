@@ -38,6 +38,7 @@ st.caption("May 2026 Spending Analysis — Ryan D'Souza, TD Chequing")
 df = pd.read_csv("data/ryan_dsouza_may2026_TD_statement.csv")
 df = classify_dataframe(df)
 df["category"] = df["category"].replace("fee", "wasteful")
+df.loc[df["Description"].str.contains("ROGERS", na=False), "category"] = "essential"
 df["Date"] = pd.to_datetime(df["Date"])
 df["Debit"] = pd.to_numeric(df["Debit"], errors="coerce").fillna(0)
 
