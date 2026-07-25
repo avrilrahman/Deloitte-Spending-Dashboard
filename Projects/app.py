@@ -4,10 +4,6 @@ import numpy as np
 import plotly.express as px
 from src.categorize import classify_dataframe
 from src.metrics import wasted_spend_total, spend_by_category, waste_pct_of_income, months_to_goal
-import os
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-df = pd.read_csv(os.path.join(BASE_DIR, "data", "ryan_dsouza_may2026_TD_statement.csv"))
 
 st.set_page_config(page_title="Ryan's Spending Insights", layout="wide", page_icon="💰")
 
