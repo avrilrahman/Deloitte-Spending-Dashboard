@@ -214,9 +214,17 @@ with tab3:
                            color_discrete_sequence=[DELOITTE_GREEN])
     fig_savings.add_hline(y=3000, line_dash="dash", line_color="#0076A8", annotation_text="$3,000 Goal")
     st.plotly_chart(fig_savings, use_container_width=True)
+
     goal_months = months_to_goal(total_waste)
     if goal_months:
         st.success(f"If Ryan redirects his wasted spend, he reaches his $3,000 goal in approximately {goal_months} months.")
+
+    st.caption(
+        f"Calculation: monthly savings = confirmed wasteful spend (${wasteful_total:,.2f}) + unclear cash withdrawals "
+        f"(${unclear_cash_total:,.2f}) = ${total_waste:,.2f} per month. Months to goal = $3,000 ÷ ${total_waste:,.2f} "
+        f"= {goal_months} months. This projection assumes Ryan redirects the full amount every month with no interest, "
+        f"no other spending changes, and doesn't yet account for his negative ending balance in May."
+    )
 
 with tab4:
     st.subheader("Flagged Waste and Unclear Cash")
