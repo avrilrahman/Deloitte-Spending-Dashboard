@@ -1,0 +1,527 @@
+{
+  "account_holder": "Ryan D'Souza",
+  "account_type": "TD Chequing",
+  "statement_period": "May 2026",
+  "starting_balance": 180.35,
+  "ending_balance": -0.22,
+  "transactions": [
+    {
+      "date": "2026-05-01",
+      "description": "PAYROLL DEP - MAPLE ANALYTICS INC",
+      "debit": null,
+      "credit": 3950.0,
+      "balance": 4130.35
+    },
+    {
+      "date": "2026-05-01",
+      "description": "E-TFR SENT - RENT (ROOMMATE)",
+      "debit": 900.0,
+      "credit": null,
+      "balance": 3230.35
+    },
+    {
+      "date": "2026-05-01",
+      "description": "PRESTO FARE CARD RELOAD",
+      "debit": 40.0,
+      "credit": null,
+      "balance": 3190.35
+    },
+    {
+      "date": "2026-05-02",
+      "description": "TIM HORTONS #4471",
+      "debit": 6.85,
+      "credit": null,
+      "balance": 3183.5
+    },
+    {
+      "date": "2026-05-02",
+      "description": "NETFLIX.COM",
+      "debit": 16.99,
+      "credit": null,
+      "balance": 3166.51
+    },
+    {
+      "date": "2026-05-03",
+      "description": "GOODLIFE FITNESS MBR FEE",
+      "debit": 59.99,
+      "credit": null,
+      "balance": 3106.52
+    },
+    {
+      "date": "2026-05-03",
+      "description": "ABM WITHDRAWAL - TD BANK",
+      "debit": 100.0,
+      "credit": null,
+      "balance": 3006.52
+    },
+    {
+      "date": "2026-05-03",
+      "description": "LOBLAWS #331 GROCERY",
+      "debit": 64.22,
+      "credit": null,
+      "balance": 2942.3
+    },
+    {
+      "date": "2026-05-04",
+      "description": "UBER EATS",
+      "debit": 28.4,
+      "credit": null,
+      "balance": 2913.9
+    },
+    {
+      "date": "2026-05-04",
+      "description": "STARBUCKS",
+      "debit": 6.75,
+      "credit": null,
+      "balance": 2907.15
+    },
+    {
+      "date": "2026-05-05",
+      "description": "SPOTIFY PREMIUM",
+      "debit": 11.99,
+      "credit": null,
+      "balance": 2895.16
+    },
+    {
+      "date": "2026-05-05",
+      "description": "ROGERS WIRELESS - PREAUTH",
+      "debit": 68.5,
+      "credit": null,
+      "balance": 2826.66
+    },
+    {
+      "date": "2026-05-06",
+      "description": "NO FRILLS GROCERY",
+      "debit": 41.1,
+      "credit": null,
+      "balance": 2785.56
+    },
+    {
+      "date": "2026-05-06",
+      "description": "TTC/PRESTO",
+      "debit": 3.35,
+      "credit": null,
+      "balance": 2782.21
+    },
+    {
+      "date": "2026-05-07",
+      "description": "LCBO STORE #212",
+      "debit": 32.0,
+      "credit": null,
+      "balance": 2750.21
+    },
+    {
+      "date": "2026-05-07",
+      "description": "MCDONALD'S",
+      "debit": 11.2,
+      "credit": null,
+      "balance": 2739.01
+    },
+    {
+      "date": "2026-05-08",
+      "description": "DISNEY PLUS",
+      "debit": 13.99,
+      "credit": null,
+      "balance": 2725.02
+    },
+    {
+      "date": "2026-05-08",
+      "description": "AMAZON.CA PURCHASE",
+      "debit": 45.67,
+      "credit": null,
+      "balance": 2679.35
+    },
+    {
+      "date": "2026-05-09",
+      "description": "ABM WITHDRAWAL - EXCHANGE BANK",
+      "debit": 60.0,
+      "credit": null,
+      "balance": 2619.35
+    },
+    {
+      "date": "2026-05-09",
+      "description": "SHOPPERS DRUG MART",
+      "debit": 18.44,
+      "credit": null,
+      "balance": 2600.91
+    },
+    {
+      "date": "2026-05-10",
+      "description": "UBER TRIP",
+      "debit": 14.3,
+      "credit": null,
+      "balance": 2586.61
+    },
+    {
+      "date": "2026-05-10",
+      "description": "METRO GROCERY",
+      "debit": 52.8,
+      "credit": null,
+      "balance": 2533.81
+    },
+    {
+      "date": "2026-05-10",
+      "description": "BEST BUY - HEADPHONES",
+      "debit": 189.99,
+      "credit": null,
+      "balance": 2343.82
+    },
+    {
+      "date": "2026-05-10",
+      "description": "TICKETMASTER - CONCERT TIX",
+      "debit": 145.0,
+      "credit": null,
+      "balance": 2198.82
+    },
+    {
+      "date": "2026-05-11",
+      "description": "LINKEDIN PREMIUM SUB",
+      "debit": 39.99,
+      "credit": null,
+      "balance": 2158.83
+    },
+    {
+      "date": "2026-05-11",
+      "description": "TIM HORTONS #4471",
+      "debit": 5.15,
+      "credit": null,
+      "balance": 2153.68
+    },
+    {
+      "date": "2026-05-12",
+      "description": "RESTAURANT - PAI THAI",
+      "debit": 48.6,
+      "credit": null,
+      "balance": 2105.08
+    },
+    {
+      "date": "2026-05-12",
+      "description": "INTERAC E-TFR SENT - FRIEND",
+      "debit": 25.0,
+      "credit": null,
+      "balance": 2080.08
+    },
+    {
+      "date": "2026-05-12",
+      "description": "BAR - THE ANNEX PUB",
+      "debit": 62.5,
+      "credit": null,
+      "balance": 2017.58
+    },
+    {
+      "date": "2026-05-13",
+      "description": "CRAVE TV",
+      "debit": 19.99,
+      "credit": null,
+      "balance": 1997.59
+    },
+    {
+      "date": "2026-05-13",
+      "description": "TTC/PRESTO",
+      "debit": 3.35,
+      "credit": null,
+      "balance": 1994.24
+    },
+    {
+      "date": "2026-05-14",
+      "description": "STARBUCKS",
+      "debit": 7.1,
+      "credit": null,
+      "balance": 1987.14
+    },
+    {
+      "date": "2026-05-14",
+      "description": "AMAZON PRIME MEMBERSHIP",
+      "debit": 9.99,
+      "credit": null,
+      "balance": 1977.15
+    },
+    {
+      "date": "2026-05-15",
+      "description": "FRESHCO GROCERY",
+      "debit": 58.9,
+      "credit": null,
+      "balance": 1918.25
+    },
+    {
+      "date": "2026-05-15",
+      "description": "ABM WITHDRAWAL - TD BANK",
+      "debit": 80.0,
+      "credit": null,
+      "balance": 1838.25
+    },
+    {
+      "date": "2026-05-15",
+      "description": "VIA RAIL - WEEKEND TRIP",
+      "debit": 210.0,
+      "credit": null,
+      "balance": 1628.25
+    },
+    {
+      "date": "2026-05-16",
+      "description": "HOTEL MONTREAL",
+      "debit": 180.0,
+      "credit": null,
+      "balance": 1448.25
+    },
+    {
+      "date": "2026-05-16",
+      "description": "UBER EATS",
+      "debit": 33.75,
+      "credit": null,
+      "balance": 1414.5
+    },
+    {
+      "date": "2026-05-17",
+      "description": "RESTAURANT - MONTREAL BISTRO",
+      "debit": 75.4,
+      "credit": null,
+      "balance": 1339.1
+    },
+    {
+      "date": "2026-05-17",
+      "description": "CINEPLEX CINEMAS",
+      "debit": 24.5,
+      "credit": null,
+      "balance": 1314.6
+    },
+    {
+      "date": "2026-05-17",
+      "description": "TIM HORTONS #4471",
+      "debit": 6.4,
+      "credit": null,
+      "balance": 1308.2
+    },
+    {
+      "date": "2026-05-18",
+      "description": "LOBLAWS #331 GROCERY",
+      "debit": 71.35,
+      "credit": null,
+      "balance": 1236.85
+    },
+    {
+      "date": "2026-05-19",
+      "description": "TTC/PRESTO",
+      "debit": 3.35,
+      "credit": null,
+      "balance": 1233.5
+    },
+    {
+      "date": "2026-05-19",
+      "description": "H&M RETAIL",
+      "debit": 62.14,
+      "credit": null,
+      "balance": 1171.36
+    },
+    {
+      "date": "2026-05-19",
+      "description": "ABM WITHDRAWAL - TD BANK",
+      "debit": 120.0,
+      "credit": null,
+      "balance": 1051.36
+    },
+    {
+      "date": "2026-05-20",
+      "description": "MCDONALD'S",
+      "debit": 9.85,
+      "credit": null,
+      "balance": 1041.51
+    },
+    {
+      "date": "2026-05-20",
+      "description": "NETFLIX.COM ADD-ON MEMBER",
+      "debit": 7.99,
+      "credit": null,
+      "balance": 1033.52
+    },
+    {
+      "date": "2026-05-21",
+      "description": "RESTAURANT - PHO XE LUA",
+      "debit": 31.4,
+      "credit": null,
+      "balance": 1002.12
+    },
+    {
+      "date": "2026-05-21",
+      "description": "ABM WITHDRAWAL - EXCHANGE BANK",
+      "debit": 100.0,
+      "credit": null,
+      "balance": 902.12
+    },
+    {
+      "date": "2026-05-22",
+      "description": "METRO GROCERY",
+      "debit": 39.6,
+      "credit": null,
+      "balance": 862.52
+    },
+    {
+      "date": "2026-05-22",
+      "description": "STARBUCKS",
+      "debit": 6.95,
+      "credit": null,
+      "balance": 855.57
+    },
+    {
+      "date": "2026-05-23",
+      "description": "UBER TRIP",
+      "debit": 17.2,
+      "credit": null,
+      "balance": 838.37
+    },
+    {
+      "date": "2026-05-23",
+      "description": "TTC/PRESTO",
+      "debit": 3.35,
+      "credit": null,
+      "balance": 835.02
+    },
+    {
+      "date": "2026-05-23",
+      "description": "SPORTCHEK - RUNNING SHOES",
+      "debit": 129.99,
+      "credit": null,
+      "balance": 705.03
+    },
+    {
+      "date": "2026-05-24",
+      "description": "AMAZON.CA PURCHASE",
+      "debit": 38.22,
+      "credit": null,
+      "balance": 666.81
+    },
+    {
+      "date": "2026-05-24",
+      "description": "TIM HORTONS #4471",
+      "debit": 6.1,
+      "credit": null,
+      "balance": 660.71
+    },
+    {
+      "date": "2026-05-25",
+      "description": "RESTAURANT - JOEY TORONTO",
+      "debit": 54.8,
+      "credit": null,
+      "balance": 605.91
+    },
+    {
+      "date": "2026-05-25",
+      "description": "INTERAC E-TFR SENT - FRIEND",
+      "debit": 40.0,
+      "credit": null,
+      "balance": 565.91
+    },
+    {
+      "date": "2026-05-25",
+      "description": "AMAZON.CA PURCHASE - GIFT",
+      "debit": 89.99,
+      "credit": null,
+      "balance": 475.92
+    },
+    {
+      "date": "2026-05-26",
+      "description": "NO FRILLS GROCERY",
+      "debit": 45.15,
+      "credit": null,
+      "balance": 430.77
+    },
+    {
+      "date": "2026-05-26",
+      "description": "TTC/PRESTO",
+      "debit": 3.35,
+      "credit": null,
+      "balance": 427.42
+    },
+    {
+      "date": "2026-05-27",
+      "description": "UBER EATS",
+      "debit": 26.9,
+      "credit": null,
+      "balance": 400.52
+    },
+    {
+      "date": "2026-05-27",
+      "description": "SHOPPERS DRUG MART",
+      "debit": 14.6,
+      "credit": null,
+      "balance": 385.92
+    },
+    {
+      "date": "2026-05-27",
+      "description": "BAR - THE ANNEX PUB",
+      "debit": 54.2,
+      "credit": null,
+      "balance": 331.72
+    },
+    {
+      "date": "2026-05-28",
+      "description": "STARBUCKS",
+      "debit": 7.25,
+      "credit": null,
+      "balance": 324.47
+    },
+    {
+      "date": "2026-05-28",
+      "description": "LCBO STORE #212",
+      "debit": 28.5,
+      "credit": null,
+      "balance": 295.97
+    },
+    {
+      "date": "2026-05-28",
+      "description": "ABM WITHDRAWAL - EXCHANGE BANK",
+      "debit": 100.0,
+      "credit": null,
+      "balance": 195.97
+    },
+    {
+      "date": "2026-05-29",
+      "description": "RESTAURANT - PAI THAI",
+      "debit": 41.3,
+      "credit": null,
+      "balance": 154.67
+    },
+    {
+      "date": "2026-05-29",
+      "description": "TIM HORTONS #4471",
+      "debit": 5.8,
+      "credit": null,
+      "balance": 148.87
+    },
+    {
+      "date": "2026-05-29",
+      "description": "RESTAURANT - BIRTHDAY DINNER SPLIT",
+      "debit": 47.0,
+      "credit": null,
+      "balance": 101.87
+    },
+    {
+      "date": "2026-05-30",
+      "description": "METRO GROCERY",
+      "debit": 33.75,
+      "credit": null,
+      "balance": 68.12
+    },
+    {
+      "date": "2026-05-30",
+      "description": "TTC/PRESTO",
+      "debit": 3.35,
+      "credit": null,
+      "balance": 64.77
+    },
+    {
+      "date": "2026-05-31",
+      "description": "CRAVE TV RENEWAL",
+      "debit": 19.99,
+      "credit": null,
+      "balance": 44.78
+    },
+    {
+      "date": "2026-05-31",
+      "description": "OVERDRAFT HANDLING FEE",
+      "debit": 45.0,
+      "credit": null,
+      "balance": -0.22
+    }
+  ]
+}
