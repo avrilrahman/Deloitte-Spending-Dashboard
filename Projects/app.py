@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from src.categorize import classify_dataframe
 from src.metrics import wasted_spend_total, spend_by_category, waste_pct_of_income, months_to_goal
 
 st.set_page_config(page_title="Ryan's Spending Insights", layout="wide", page_icon="💰")
