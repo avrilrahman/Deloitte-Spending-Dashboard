@@ -1,4 +1,8 @@
 import pandas as pd
+def classify_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    df["category"] = df["Description"].apply(classify_transaction)
+    return df
 
 WASTE_KEYWORDS = [
     "GOODLIFE",
