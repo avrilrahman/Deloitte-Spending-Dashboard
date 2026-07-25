@@ -36,7 +36,8 @@ st.markdown(f"""
 st.title("Personal Spending Intelligence Dashboard")
 st.caption("May 2026 Spending Analysis — Ryan D'Souza, TD Chequing")
 
-df = pd.read_csv("data/ryan_dsouza_may2026_TD_statement.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(BASE_DIR, "data", "ryan_dsouza_may2026_TD_statement.csv"))
 df = classify_dataframe(df)
 df["category"] = df["category"].replace("fee", "wasteful")
 df.loc[df["Description"].str.contains("ROGERS", na=False), "category"] = "essential"
